@@ -66,14 +66,15 @@ Scaffold-DbContext "Server=.;Database=WrenchFlowDB;Trusted_Connection=True;Trust
 | Resource | Endpoints |
 |---|---|
 | Customers | `GET/POST /api/customers`, `GET/PUT/DELETE /api/customers/{id}` |
-| Vehicles | `GET/POST /api/vehicles`, `GET/PUT /api/vehicles/{id}`, `GET /api/vehicles/by-customer/{customerId}` |
+| Vehicles | `GET/POST /api/vehicles`, `GET/PUT/api/vehicles/{id}`, `GET /api/vehicles/by-customer/{customerId}` |
+| Specializations | `GET/POST /api/specializations`, `GET/PUT/DELETE /api/specializations/{id}` |
 
 ## Roadmap
 
 - [x] Solution setup, entities, generic repository
 - [x] Customers
 - [x] Vehicles
-- [ ] Specializations
+- [x] Specializations
 - [ ] Users and authentication (JWT)
 - [ ] Spare parts
 - [ ] Job orders, faults, assignments
