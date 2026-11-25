@@ -1,0 +1,6 @@
+@WrenchFlow.API_HostAddress = http://localhost:5141
+
+GET {{WrenchFlow.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
